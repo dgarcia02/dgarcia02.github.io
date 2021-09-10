@@ -1,3 +1,60 @@
+:root {
+    --cultured: #EDEDED;
+    --electricViolet: #9601FF;
+    --richBlack: #070707;
+    --internOrange: #F24C00;
+}
+
 * {
     margin: auto;
+    background-color: var(--cultured);
 }
+
+header {
+    /* animation: slide 3s; */
+    background: linear-gradient(to right, #F24C00 50%, #EDEDED 50%);
+    height: 49.3rem;
+}
+
+h1 {
+    background-color: transparent;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 10rem;
+}
+
+p, i {
+    background-color: transparent;
+    font-size: 0.7rem;
+    font-family: 'Source Code Pro', monospace;
+    writing-mode: vertical-lr;
+    text-orientation: mixed;
+}
+
+.leftSide {
+    height: 45rem;
+    background-color: blue;
+}
+/* 
+@keyframes slide {
+    0% {
+        transform: linear-gradient(to right, #F24C00 50%, #EDEDED 50%);
+    }
+    100% {
+        transform: linear-gradient(to right, #F24C00 100%, #EDEDED 0%);
+    }
+    0% {
+        background: linear-gradient(to right, #F24C00 50%, #EDEDED 50%);
+    }
+    25% {
+        background: linear-gradient(to right, #F24C00 62.5%, #EDEDED 37.5%);
+    }
+    50% {
+        background: linear-gradient(to right, #F24C00 75%, #EDEDED 25%);
+    }
+    75% {
+        background: linear-gradient(to right, #F24C00 87.5%, #EDEDED 12.5%);
+    }
+    100% {
+        background: linear-gradient(to right, #F24C00 100%, #EDEDED 0%);
+    }
+} */
