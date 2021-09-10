@@ -14,26 +14,31 @@ header {
     /* animation: slide 3s; */
     background: linear-gradient(to right, #F24C00 50%, #EDEDED 50%);
     height: 49.3rem;
+    display: flex;
+    flex-direction: column;
 }
 
 h1 {
     background-color: transparent;
     font-family: 'Source Code Pro', monospace;
     font-size: 10rem;
+    text-align: center;
+    
 }
 
-p, i {
+.scroll, i, .tags {
     background-color: transparent;
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     font-family: 'Source Code Pro', monospace;
     writing-mode: vertical-lr;
     text-orientation: mixed;
 }
 
-.leftSide {
-    height: 45rem;
-    background-color: blue;
+.tags {
+    letter-spacing: 0.8em;
+    margin-left: 1em;
 }
+
 /* 
 @keyframes slide {
     0% {
