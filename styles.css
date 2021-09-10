@@ -8,6 +8,7 @@
 * {
     margin: auto;
     background-color: var(--cultured);
+    font-family: 'Source Code Pro', monospace;
 }
 
 header {
@@ -27,7 +28,7 @@ h1 {
     
 }
 
-.scroll, i, .tags {
+.scroll, i, .vertical-tag {
     background-color: transparent;
     font-size: 0.9rem;
     font-family: 'Source Code Pro', monospace;
@@ -35,8 +36,16 @@ h1 {
     text-orientation: mixed;
 }
 
-.tags {
+.vertical-tag {
     margin-left: 1em;
+    letter-spacing: 0.6em;
+    background-color: transparent;
+    color: #A33400;
+}
+
+.horizontal-tag {
+    font-size: 0.9rem;
+    background-color: transparent;
     letter-spacing: 0.6em;
     color: #A33400;
 }
