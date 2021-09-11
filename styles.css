@@ -124,7 +124,7 @@ h3 {
 
 /* Columns */
 .about {
-    background-color: lightgray;
+    background-color: royalblue;
 }
 
 .aboutText {
@@ -132,7 +132,7 @@ h3 {
 }
 
 .aboutColumns {
-    height: 49.3em;
+    height: 43.7em;
     display: flex;
 }
 
@@ -150,6 +150,14 @@ img {
     width: 50%;
 }
 
+.projects-col {
+    display: flex;
+}
+
+.footer-col, .column2 {
+    background-color: royalblue;
+}
+
 i {
     font-size: 2.6em;
 }
@@ -161,6 +169,28 @@ svg {
 .skills-col {
     display: flex;
     justify-content: space-between;
+}
+
+.footer-col {
+    display: flex;
+}
+
+#contact {
+    display: flex;
+}
+
+.contact-icon {
+    font-size: 2em;
+}
+
+.skills {
+    margin-top: 0em;
+}
+
+.skills-text {
+    background-color: transparent;
+    /* background-color: #001029; */
+    color: var(--cultured);
 }
 
 /* 
