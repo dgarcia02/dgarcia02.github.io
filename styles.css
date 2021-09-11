@@ -151,7 +151,14 @@ img {
 }
 
 .projects-col {
+    height: 30em;
     display: flex;
+}
+
+.project {
+    border: 1px solid lightgray;
+    width: 100%;
+    height: 100%;
 }
 
 .footer-col, .column2 {
