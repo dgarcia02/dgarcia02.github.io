@@ -162,7 +162,7 @@ img {
 }
 
 .footer-col, .column2 {
-    background-color: royalblue;
+    /* background-color: royalblue; */
 }
 
 i {
@@ -197,7 +197,11 @@ svg {
 .skills-text {
     background-color: transparent;
     /* background-color: #001029; */
-    color: var(--cultured);
+    /* color: var(--cultured); */
+}
+
+.column3 {
+    background-color: var(--internOrange);
 }
 
 /* 
