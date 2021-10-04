@@ -173,7 +173,7 @@ svg {
 
 /* Projects Section */
 #projects {
-    height: 70rem;
+    height: 75rem;
     margin-top: 2em;
 }
 
@@ -186,9 +186,9 @@ svg {
 
 .project {
     border-radius: 20px;
-    width: 25%;
-    height: 100%;
-    margin: 0.6em;
+    width: 27%;
+    height: 105%;
+    margin: 1em;
     padding: 1em;
     box-shadow: 0px 16px 40px rgba(0,0,0,.15);
 }
