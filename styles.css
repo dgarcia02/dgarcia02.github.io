@@ -205,9 +205,13 @@ svg {
 
 .links {
     font-size: 0.8em;
-    text-decoration: none;
-    color: var(--richBlack);
+    text-decoration: underline;
+    color: lightskyblue;
     margin-right: 2em;
+}
+
+.links:hover {
+    color: var(--internOrange);
 }
 
 button {
